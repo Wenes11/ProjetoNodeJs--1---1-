@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-item a {
+    color: #212529;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.navbar .btn {
+    padding: 0.7rem 1.2rem;
+    color: #FFF;
+    background-color: #F03E3E;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Banner */
+#top-container {
+    padding: 80px 20px;
+    background: url("../img/banner2.jpg") no-repeat center/cover;
+    text-align: center;
+    color: #FFF;
+    border-bottom: 4px solid #1c2666;
+    margin-bottom: 20px;
+}
+
+#main-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+#main-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Formulário */
+#search-form {
+    display: flex;
+    gap: 15px;
+    padding: 25px;
+    justify-content: center;
+}
+
+#search-form input {
+    flex: 1;
+    height: 45px;
+    font-size: 1rem;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-form button {
+    height: 45px;
+    font-size: 1rem;
+    padding: 0 20px;
+    background-color: #F03E3E;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Lista de Jobs */
+#jobs-container {
+    padding: 0 20px;
+}
+
+#job-list-title {
+    font-size: 1.8rem;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8E473;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.list-group-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.list-group-item p {
+    font-size: 1rem;
+    margin: 0;
+    flex: 1;
+}
+
+.list-group-item a {
+    background-color: #F03E3E;
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Label de Nova Vaga */
+.new-job-label {
+    font-size: 0.9rem;
+    background-color: #4CAF50; /* Verde para contraste */
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#add-form-container{
+    margin-top: 100px;
+}
+#form-box{
+    padding: 50px;
+    box-shadow: 0 1px 5px rgba(0,0,.15);
+    border-radius: 4px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+#add-form-container h2{
+    color: #42098b;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#add-form-container form label{
+    font-weight: bold;
+
+}
+#add-form-container form input, #add-form-container form textarea{
+    border: 2px solid #ccc;
+    background-color: aliceblue;
+}
+#form-box button{
+    height: 50px;
+    width: 200px;
+    background-color: #F03E3E;
+    border: 1px solid transparent;
+    border-radius: 0;
+    margin-top: 20px;
+}
+#job-view-container{
+    margin-top: 100px;
+}
+#job-view-container h1{
+    margin-bottom: 30px;
+}
+#img-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#img-container img{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #212529;
+}
+.job-desc{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold{
+    font-weight: bold;
+}
+.main-color{
+    color: #F03E3E;
+}
+.back-link{
+    border: 1px solid #F03E3E;
+    padding: 5px 10px;
+    transition: .5s;
+}
+.back-link:hover{
+    background-color: #F03E3E;
+    color: #FFF;
+    text-decoration: none;
+}

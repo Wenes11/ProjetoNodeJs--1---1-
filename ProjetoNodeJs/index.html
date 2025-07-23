@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Vagas de Emprego</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+   <header> 
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Nome do Site</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Consultar Vagas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="add.html">Abrir Vagas</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+   </header>
+   <div id="top-container" class="container-fluid">
+        <h1 id="main-title" class="text-center">Oportunidades de Emprego Home Office – Encontre o Trabalho Ideal para Você!</h1>
+        <p id="main-subtitle" class="text-center">O melhor site para quem busca empregos remotos. Inovação e tecnologia ao seu alcance!</p>
+    <form id="search-form" class="form-inline" action="">
+        <div class="form-group col-md-10">
+               <input type="text" class="form-control" id="job" name="job" placeholder="Pesquise sua vaga aqui">
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    </form>
+</div>
+<main>
+    <div id="jobs-container" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="job-list-title">Vejam as nossas vagas em destaque</h2> 
+                <ul id="job-list" class="list-group">
+                    <li class="list-group-item new-job">
+                        <img src="public/img/company.svg" alt="Company">
+                        <p>Empresa</p>
+                        <h2>Titulo da Vaga</h2>
+                        <p>4,000$</p>
+                        <span class="new-job-label">Nova Vaga</span>
+                        <a class="btn btn-primary">Acessar Vaga</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="public/img/company.svg" alt="Company">
+                        <p>Empresa</p>
+                        <h2>Titulo da Vaga</h2>
+                        <p>4,000$</p>
+                        <a class="btn btn-primary">Acessar Vaga</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="public/img/company.svg" alt="Company">
+                        <p>Empresa</p>
+                        <h2>Titulo da Vaga</h2>
+                        <p>4,000$</p>
+                        <a class="btn btn-primary">Acessar Vaga</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

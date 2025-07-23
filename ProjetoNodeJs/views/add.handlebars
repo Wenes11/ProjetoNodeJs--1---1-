@@ -1,0 +1,35 @@
+  <div id="add-form-container" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Divulgue sua Vaga preenchendo o formulario</h1>
+        </div> 
+        <div id="form-box" class="col-md-12">
+            <h2>Preencha os formulario corretamente, para achar oque procura!</h2>
+            <form action="/jobs/add" method="POST">
+                <div class="form-group">
+                    <label for="title">Titulo da Vaga:</label>
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Digite o titulo da vaga" required>
+                    <small id="titleHelp" class="form-text text-muted">O titulo é muito importante, seja claro e objetivo!</small>
+                </div>
+                <div class="form-group">
+                    <label for="descricao">Descrição da Vaga:</label>
+                    <textarea type="text" class="form-control" id="descricao" name="descricao" placeholder="Descreva os requesitos e funções" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="empresa">Empresa contratante:</label>
+                    <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Digite o nome da Empresa que vai contratar" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail para contato:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Insere seu Email para contato" required>
+                </div>
+                <div class="form-group">
+                    <label for="salario">Salario:</label>
+                    <input type="text" class="form-control" id="salario" name="salario" placeholder="Digite o Salario" required>
+    
+                </div>
+                 <div class="form-group text-center">
+                    <button type="submit" class="btn btn-success">Enviar Vaga</button>
+                </div>
+            </form>
+        </div>

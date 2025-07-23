@@ -1,0 +1,23 @@
+{
+  "name": "projetonodejs",
+  "version": "1.0.0",
+  "description": "Este sistema, é um portal, para programadores encontrarem vaga de emprego",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "Job"
+  ],
+  "author": "João Vitor Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
